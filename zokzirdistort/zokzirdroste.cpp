@@ -30,8 +30,7 @@ The main features are
 
 #define kPluginName "Zokzir Droste"
 #define kPluginGrouping "SalkocsisFX"
-#define kPluginDescription \
-  "Making droste effect"
+#define kPluginDescription "Makes a droste effect"
 
 #define kPluginIdentifier "com.salkocsisfx.zokzir.droste"
 #define kPluginVersionMajor 1
