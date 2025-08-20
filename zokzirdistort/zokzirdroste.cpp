@@ -1,5 +1,5 @@
 // Copyright OpenFX and contributors to the OpenFX project.
-// Copyright Hashory.
+// Copyright SalkocsisFX.
 // SPDX-License-Identifier: BSD-3-Clause
 
 /*
