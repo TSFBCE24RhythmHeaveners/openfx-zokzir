@@ -1,6 +1,6 @@
-# OpenFX Modern Template
+# Zokzir OpenFX Alpha
 
-This repository serves as a starting point for creating OpenFX effects using modern tools and practices. It includes a sample effect, `invert.cpp`, which has been adapted from the [official OpenFX repository](https://github.com/AcademySoftwareFoundation/openfx) and updated to use modern C++ standards.
+This repository includes two basic OpenFX plugins: Saturation and Droste.
 
 ## Tools and Dependencies
 
@@ -41,11 +41,11 @@ Additionally, you need to set the `VCPKG_ROOT` environment variable to point to 
     cmake --build build
     ```
 
-    After the build is complete, the output will be located at `invert.ofx.bundle/Contents/Your-OS/invert.ofx`.
+    After the build is complete, the output will be located at `ZokzirEFFECT.ofx.bundle/Contents/Your-OS/ZokzirEFFECT.ofx`.
 
 ## Project Structure
 
-- `invert.cpp`: The main source file for the sample OpenFX effect. This file has been adapted from the official OpenFX repository and updated to use modern C++ standards.
+- `zokzireffect.cpp`: Zokzir effect base
 - `CMakeLists.txt`: The CMake configuration file for the project.
 - `.clang-format`: Configuration file for clang-format.
 - `.clang-tidy`: Configuration file for clang-tidy.
@@ -53,8 +53,8 @@ Additionally, you need to set the `VCPKG_ROOT` environment variable to point to 
 
 ## License
 
-This project is licensed under the BSD-3-Clause License, the same as the [official OpenFX repository](https://github.com/AcademySoftwareFoundation/openfx). See the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the BSD-3-Clause License.
 
 ## Acknowledgements
 
-The `invert.cpp` file is based on code from the [official OpenFX repository](https://github.com/AcademySoftwareFoundation/openfx) and has been updated to use modern C++ standards.
+Alex Zuma 2025 posted that Bruor Macanelic words can also be used in naming things. https://youtube.com/post/Ugkx6mWr4lfwGGR9ViHph_JgPFVCPqtqh1Zy
