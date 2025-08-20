@@ -13,9 +13,6 @@ set(SOURCES zokzirdroste.cpp)
 # Add the library
 add_library(Invert SHARED ${SOURCES})
 
-# Link against OpenFX library
-find_package(unofficial-openfx CONFIG REQUIRED)
-
 # Link the OpenFX library to the target
 target_link_libraries(Droste PRIVATE unofficial::openfx::OpenFx)
 
