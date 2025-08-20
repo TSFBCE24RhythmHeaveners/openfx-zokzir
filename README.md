@@ -27,7 +27,7 @@ Additionally, you need to set the `VCPKG_ROOT` environment variable to point to 
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/Hashory/openfx-modern-template.git
+    git clone https://github.com/TSFBCE24RhythmHeaveners/openfx-zokzir.git
     cd openfx-modern-template
     ```
 
