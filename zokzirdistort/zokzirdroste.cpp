@@ -16,6 +16,8 @@ The main features are
 
 #if defined(_WIN32) || defined(__WIN32__) || defined(WIN32)
 #include <windows.h>
+#else
+#  error Zokzir OFX is for Windows only, bro.
 #endif
 
 #include <stdio.h>
