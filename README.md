@@ -17,7 +17,7 @@ The project is built using the following tools:
 Before you can build and run this project, you need to have the following tools installed on your system:
 
 1. **CMake**: Available via most package managers (e.g., `apt`, `winget`).
-2. **vcpkg**: Available via most package managers (e.g., `apt`, `winget`).
+2. **VcPKG**: Available via most package managers (e.g., `apt`, `winget`).
 3. **Ninja**: Available via most package managers (e.g., `apt`, `winget`).
 4. **clang-format** and **clang-tidy**: These are typically included with the LLVM toolchain and are often integrated into modern code editors.
 
