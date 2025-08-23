@@ -7,7 +7,7 @@ This repository includes two basic OpenFX plugins: Saturation and Droste.
 The project is built using the following tools:
 
 - **CMake**: A cross-platform build system generator.
-- **vcpkg**: A C++ library manager that simplifies the installation of dependencies.
+- **VcPkg**: A C++ library manager that simplifies the installation of dependencies.
 - **Ninja**: A small build system with a focus on speed.
 - **clang-format**: A tool to format C++ code according to style guidelines.
 - **clang-tidy**: A clang-based C++ linter tool.
@@ -17,7 +17,7 @@ The project is built using the following tools:
 Before you can build and run this project, you need to have the following tools installed on your system:
 
 1. **CMake**: Available via most package managers (e.g., `apt`, `winget`).
-2. **VcPKG**: Available via most package managers (e.g., `apt`, `winget`).
+2. **VcPkg**: Available via most package managers (e.g., `apt`, `winget`).
 3. **Ninja**: Available via most package managers (e.g., `apt`, `winget`).
 4. **clang-format** and **clang-tidy**: These are typically included with the LLVM toolchain and are often integrated into modern code editors.
 
