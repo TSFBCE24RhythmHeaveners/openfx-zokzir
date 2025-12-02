@@ -14,7 +14,7 @@ set(SOURCES zokzirsaturation.cpp)
 add_library(Invert SHARED ${SOURCES})
 
 # Link the OpenFX library to the target
-target_link_libraries(ZokzirSaturation PRIVATE unofficial::openfx::OpenFx)
+target_link_libraries(ZokzirSaturation PRIVATE zokzir::openfx::OpenFx)
 
 # Set the output name
 set_target_properties(ZokzirSaturation PROPERTIES OUTPUT_NAME "ZokzirSaturation" SUFFIX ".ofx")
