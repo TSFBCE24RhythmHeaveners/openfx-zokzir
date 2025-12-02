@@ -14,7 +14,7 @@ set(SOURCES zokzirdroste.cpp)
 add_library(Invert SHARED ${SOURCES})
 
 # Link the OpenFX library to the target
-target_link_libraries(Droste PRIVATE unofficial::openfx::OpenFx)
+    target_link_libraries(Droste PRIVATE zokzir::openfx::OpenFx)
 
 # Set the output name
 set_target_properties(Droste PROPERTIES OUTPUT_NAME "ZokzirDroste" SUFFIX ".ofx")
