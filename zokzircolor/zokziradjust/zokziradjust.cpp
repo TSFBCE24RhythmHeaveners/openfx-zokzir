@@ -16,10 +16,10 @@
 #include <cstring>
 
 // Plugin identifiers
-#define kPluginName "ColorCorrection"
+#define kPluginName "Zokzir Color Correction"
 #define kPluginGrouping "Color"
 #define kPluginDescription "Basic color correction with gain, gamma, and saturation controls"
-#define kPluginIdentifier "com.ilovedogs5335.ofx.ColorCorrection"
+#define kPluginIdentifier "com.salkocsisfx.zokzir.colorcorrection"
 #define kPluginVersionMajor 1
 #define kPluginVersionMinor 0
 
