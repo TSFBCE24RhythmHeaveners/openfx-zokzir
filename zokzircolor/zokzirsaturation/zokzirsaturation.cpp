@@ -31,7 +31,7 @@ The main features are
 #include "ofxsMatrix2D.h"
 
 #define kPluginName "Zokzir Saturation"
-#define kPluginGrouping "SalkocsisFX"
+#define kPluginGrouping "Color"
 #define kPluginDescription "Saturates old film."
 
 #define kPluginIdentifier "com.salkocsisfx.zokzir.saturation"
