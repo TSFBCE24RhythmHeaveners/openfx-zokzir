@@ -31,7 +31,7 @@ The main features are
 #include "ofxsMatrix2D.h"
 
 #define kPluginName "Zokzir Droste"
-#define kPluginGrouping "SalkocsisFX"
+#define kPluginGrouping "Distortion"
 #define kPluginDescription "Makes a droste effect"
 
 #define kPluginIdentifier "com.salkocsisfx.zokzir.droste"
